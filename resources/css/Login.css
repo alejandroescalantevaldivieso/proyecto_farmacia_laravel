@@ -1,0 +1,128 @@
+html,body{
+    width:100%;
+    height:100%;    
+}
+
+.Ocultar{
+    display:none;
+}
+.opacity{
+    opacity: 5;
+}
+
+/*CONENTEDOR*/
+.Contenedor{
+    width:450px;
+    height:400px;    
+    margin:auto;    
+    background: rgba(255, 255, 255, 0.1);  /* Fondo semi-transparente */
+    backdrop-filter: blur(10px);            /* Desenfoque del fondo */
+    color:white;
+    border-radius: 20px;
+}
+
+.Contenedor h2{
+    text-align: center;
+    width:100%;
+    height:10px;
+    color:rgb(228, 223, 223);
+    margin-bottom:40px;
+    margin-top:40px;
+    font-size:40px;
+    font-weight: bold;
+}
+
+.Contenedor input{    
+    background: rgba(255, 255, 255, 0.1);  /* Fondo semi-transparente */
+    border: none;
+    width:250px;
+    height:40px;
+    margin-bottom:20px;
+    color:white;
+    padding:10px;
+    border-radius:10px;    
+}
+.Contenedor input:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out;
+}
+.Contenedor input::placeholder{
+    color:white;
+}
+.Contenedor input:focus{
+    outline: none;
+}
+#txtNombre, #txtContraseña,#btnIniciar{
+    display: block;
+    margin: auto;
+}
+#txtContraseña{
+    margin-bottom: 0;
+}
+
+
+.barra-carga-uno{
+    margin-top: 40px;
+}
+
+
+.input__label{
+    display: inline-block;
+    width: 50px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: black;
+    position: relative;
+    cursor: pointer;
+    transition: all .3s ease;
+    margin-left: 100px;
+}
+.input__label::before{
+    content: "";
+    display: block;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 3px;
+    left: 5px;
+    background-color: white;
+    border-radius: 100%;
+    transition: transform .3s ease;
+}
+.input{
+    display: none;
+}
+
+.input:checked + .input__label{
+    background-color: #58d68d;
+}
+
+.input:checked + .input__label::before{
+    transform: translateX(25px);
+    transition: transform .3s ease;
+}
+
+
+
+
+
+@media(max-width:800px){
+    /*CONENTEDOR*/
+.Contenedor{
+    width:320px;
+    height:400px;    
+    margin:auto;    
+    background: rgba(255, 255, 255, 0.1);  /* Fondo semi-transparente */
+    backdrop-filter: blur(10px);            /* Desenfoque del fondo */
+    color:white;
+    text-align: center;
+    border-radius: 20px;
+}
+.input__label{
+    margin-left:0px ;
+}
+}
+
+
+
+

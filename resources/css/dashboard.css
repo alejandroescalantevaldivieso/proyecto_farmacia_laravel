@@ -1,0 +1,54 @@
+
+body {
+    font-family: system-ui, sans-serif;
+    background: #f7f7f7;
+}
+
+.dashboard {
+    max-width: 1600px;
+    margin: auto;
+}
+
+.stats {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.stat {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,.05);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0,0,0,.08);
+    
+}
+
+.wide {
+    grid-column: span 2;
+}
+
+
+.card canvas {
+    max-height: 250px; /* Ajusta este valor según necesites */
+    width: 100% !important;
+    height: auto !important;
+}
+
+.card.wide canvas {
+    max-height: 300px; /* Un poco más alto para el gráfico ancho */
+}

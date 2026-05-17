@@ -1,0 +1,13 @@
+.ocultar{
+    display:none !important;    
+}
+.SeleccionarFila{
+    background-color:#beeaf3 !important;
+}
+html, body{
+    width:100%;
+    height:100%;
+}
+body{
+    min-width: 250px;
+}
