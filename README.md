@@ -1,8 +1,4 @@
-# 🚀 Nombre del Proyecto
-
-Proyecto desarrollado con Laravel.
-
----
+# 🚀 Gia para ejecutar el sistema en Linux/Ubuntu
 
 # 📋 Requisitos Previos
 
