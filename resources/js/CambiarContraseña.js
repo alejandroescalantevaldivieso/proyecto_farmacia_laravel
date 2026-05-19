@@ -6,6 +6,9 @@ document.addEventListener("DOMContentLoaded",function(){
     };     
     document.getElementById("btnCambiarContraseña").onclick = UsuarioCambiarContraseña;
 
+    document.getElementById("btnRegresar").onclick = function(){
+        window.location.href="/login";
+    }
 
     document.addEventListener("keydown", function (e) {
     if (e.key === "Enter") {

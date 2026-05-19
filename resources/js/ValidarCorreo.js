@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
         Alerta(true);
     };
     document.getElementById("btnRegresar").onclick = function(){
-        window.location.href="/loginx";
+        window.location.href="/login";
     }
 
     //Permitir enviar formulario con enter

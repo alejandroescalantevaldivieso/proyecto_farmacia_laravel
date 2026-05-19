@@ -26,7 +26,7 @@ function Alerta(Ocultar, Icono = "", Mensaje = "") {
     } else {
         //Mostrar alerta con icono y mensaje personalizado
         document.querySelector(".alerta-uno").classList.remove("ocultar");
-        document.getElementById("imgIcono").src = "../../Imagen/Icono/" + Icono;
+        document.getElementById("imgIcono").src = "/imagen/Icono/" + Icono;
         document.getElementById("pMensaje").innerText = Mensaje;
     }
 }
