@@ -1,4 +1,4 @@
-# 🚀 Gia para ejecutar el sistema en Linux/Ubuntu
+# 🚀 Guía para ejecutar el sistema en Linux/Ubuntu
 
 # 📋 Requisitos Previos
 
@@ -56,7 +56,7 @@ sudo apt update
 ## Instalar PHP y extensiones
 
 ```bash
-sudo apt install php php-cli php-mbstring php-xml php-bcmath php-curl php-zip unzip curl -y
+sudo apt install php php-cli php-mysql php-mbstring php-xml php-bcmath php-curl php-zip unzip curl composer -y
 ```
 
 ---
