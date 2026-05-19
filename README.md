@@ -1,4 +1,4 @@
-# 🚀 Gia para ejecutar el sistema en Linux/Ubuntu
+# 🚀 Guia para ejecutar el sistema en Linux/Ubuntu
 
 # 📋 Requisitos Previos
 
